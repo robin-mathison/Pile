@@ -1,9 +1,10 @@
-Very Good Project
+Very Good Project\n
 Directory structure:
  - Src code:
     - src/UI_Integrations
     - src/auth_server
- ** Ignore anything else
+ 
+ ** Ignore anything else\n
 
 Flask + Venv Setup (For initial prototype)
 Pull bluefoot repo
