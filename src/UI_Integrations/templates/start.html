@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript"> 
+		var code = {{ data.code }}
+	</script>
+</head>
+<body>
+	<h1 align="center">Access Token: <span id = "num"></span></h1>
+	<script>
+		let num = code;
+		document.getElementById("num").innerHTML = num;
+	</script>
+    <!--<p align="center"><a href="/smol?desk_token=desk1"><button class="btn-4">Continue without connecting external device</button></a></p>-->
+	<form action="">
+		<h2 align="center">
+			<input type="button" value="Continue without connecting external device" onclick="window.location.href='smol?desk_token=desk1';"/>
+		</h2>
+	</form>
+</body>
+</html>
+
+{% endblock content %}

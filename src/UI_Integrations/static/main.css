@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+* {
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 1px;
+}
+
+.icon {
+    background: #07160f81;
+    margin-right: 6px;
+    padding: 5px;
+}
+
+/* html { */
+  /* overflow: hidden; */
+/* } */
+
+body {
+  background: #1A1A75;
+  color: #333333;
+  margin-top: 5rem;
+  max-height: calc(100vh - 5rem);
+  height: calc(100vh - 5rem);
+}
+
+p {
+    color: #FBFBFE;
+  }
+
+  hr {
+    color: #FBFBFE;
+  }
+
+  br {
+    color: #1A1A75;
+  }
+
+
+h1, h2, h3, h4, h5, h6 {
+  color: #FBFBFE;;
+}
+
+iframe {
+  max-width: 100%;
+  width: 100%;
+  height: inherit;
+}
+
+main {
+  height: inherit;
+}
+
+#calculator {
+  height: 500px;
+}
+
+.rows-1 {
+  height: 100%;
+  max-height: 100%;
+}
+
+.rows-2 {
+  height: 50%;
+  max-height: 50%;
+}
+
+.show-border {
+  border-style: groove;
+  border-color: #0a426a48;
+}
+
+.bg-steel {
+  background-color: #2597e9;
+}
+
+.site-header .navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+.site-header .navbar-nav .nav-link:hover {
+  color: #ffffff;
+}
+
+.site-header .navbar-nav .nav-link.active {
+  font-weight: 500;
+}
+
+.content-section {
+  background: #ffffff;
+  padding: 10px 20px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.article-title {
+  color: #444444;
+}
+
+a.article-title:hover {
+  color: #428bca;
+  text-decoration: none;
+}
+
+.article-content {
+  white-space: pre-line;
+}
+
+.article-img {
+  height: 65px;
+  width: 65px;
+  margin-right: 16px;
+}
+
+.article-metadata {
+  padding-bottom: 1px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid #e3e3e3
+}
+
+.article-metadata a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+.article-svg {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+.account-img {
+  height: 125px;
+  width: 125px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+}
+
+.account-heading {
+  font-size: 2.5rem;
+}
+
+.div-frame {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+.pdf-frame {
+  width: 100%;
+  overflow: hidden;
+  height: 500%;
+}
+
+#display-page {
+  height:100%;
+}
+
+.col {
+  max-height: 100%;
+}
+
+.row {
+  max-height: 100%;
+  --bs-gutter-x: 0;
+}
+
+#ctrl-panel {
+  max-height: 100%;
+  height: 80%;
+}
+
+#ctrl-panel-div {
+  max-height: 100%;
+  height: 100%;
+}
+
+.big {
+  font-size: 3rem;
+  width: 500px;
+}
+
+input {
+  margin: auto;
+}
+

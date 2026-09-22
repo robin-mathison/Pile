@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    <h1>This is Project Bluefoot</h1>
+
+    <hr size="10px">
+
+    <!--<p>Fill with links to smol and chungus authentication stuffs</p>-->
+    <div class="container">
+    	<p><h2 align="center">Implemented Software</h2></p>
+		<p align="center"><a href='/smol?desk_token=desk1'><button class="btn-4">SMOL</button></a></p>
+
+		<p align="center"><a href='/chungus?desk_token=desk1'><button align="center"class="btn-4">CHUNGUS</button></a></p>
+	</div>
+
+	<hr size="10px">
+
+	<h2 align="center">Aesthetic Prototype</h2>
+	  <!--<img src="http://i.stack.imgur.com/Blaly.png" />
+	  <img src="http://www.w3schools.com/favicon.ico" class="imtip" />-->
+  <figure align="center" class="thumbnail">-->
+	  <img src="{{url_for('static', filename='desk.png')}}" alt="" height="400px" width="800px" />
+  </figure>-->
+
+{% endblock content %}

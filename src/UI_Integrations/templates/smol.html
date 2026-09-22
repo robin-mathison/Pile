@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+<!-- This file serves as the smol control panel. -->
+<link rel="stylesheet" href="{{url_for('static', filename='buttons.css')}}">
+{% block content %}
+
+    <div id="ctrl-panel-div" class="container-fluid">
+        <!-- <h3 class="row">Control Panel (smol)</h3> -->
+        <div id="preset-buttons-div" class="row"></div>
+        <div id="ctrl-panel" class="row"></div>
+
+        <main id="calculator" class="row" height="100vh" style="display: none">
+            <iframe src="https://www.desmos.com/scientific" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="600px" ></iframe>
+        </main>
+    </div>
+
+
+
+
+{% endblock content %}
