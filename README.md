@@ -1,4 +1,4 @@
-Very Good Project\n
+Very Good Project
 Directory structure:
  - Src code:
     - src/UI_Integrations
